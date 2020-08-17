@@ -44,7 +44,7 @@ resource "aws_lb" "network" {
 
 resource "aws_lb_listener" "browserless" {
   load_balancer_arn = aws_lb.network.arn
-  port              = var.port
+  port              = var.lb_port
   protocol          = "TCP"
 
   default_action {
