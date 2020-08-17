@@ -32,3 +32,7 @@ variable "memory" {
   type    = number
   default = 1024
 }
+
+variable "region" {
+  type = string
+}
