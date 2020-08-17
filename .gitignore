@@ -1,0 +1,6 @@
+.mypy_cache
+.python-version
+.terraform
+__pycache__
+terraform.tfstate
+terraform.tfstate.backup
